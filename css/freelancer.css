@@ -167,7 +167,7 @@ a {
 }
 
 a:hover {
-  color: #117964;
+  color: #797979;
   text-decoration: underline;
 }
 
@@ -4477,7 +4477,7 @@ input[type="button"].btn-block {
 
 .navbar-nav .nav-link {
   padding-right: 0;
-  padding-left: 0;
+  padding-left: 10;
 }
 
 .navbar-nav .dropdown-menu {
