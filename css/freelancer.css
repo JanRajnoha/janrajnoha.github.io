@@ -6916,7 +6916,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: rgba(0,0,0,0.8) !important;
+  /*background-color: rgba(0,0,0,0.8) !important;*/
+  /*border-color: #fff;*/
   color: #fff;
 }
 
