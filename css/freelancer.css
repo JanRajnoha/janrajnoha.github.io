@@ -4470,14 +4470,14 @@ input[type="button"].btn-block {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding-left: 0;
-  margin-bottom: 0;
+  padding-left: 0px;
+  margin-bottom: 0px;
   list-style: none;
 }
 
 .navbar-nav .nav-link {
-  padding-right: 0;
-  padding-left: 10;
+  padding-right: 0px;
+  padding-left: 10px;
 }
 
 .navbar-nav .dropdown-menu {
