@@ -2586,6 +2586,11 @@ textarea.form-control {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
+.btn-cv {
+    width: 200px;
+    height: 60px;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .btn {
     -webkit-transition: none;
