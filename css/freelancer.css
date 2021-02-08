@@ -2586,11 +2586,6 @@ textarea.form-control {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
-.btn-cv {
-    width: 200px;
-    height: 60px;
-}
-
 @media (prefers-reduced-motion: reduce) {
   .btn {
     -webkit-transition: none;
@@ -10902,4 +10897,29 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: rgba(0,0,0,0.8);
+}
+
+/* Custom css */
+
+.btn-cv {
+    width: 200px;
+    height: 60px;
+    margin: 10px;
+}
+
+.cv-delimiter {
+    padding-top: 20px;
+}
+
+.cv-title {
+    font-size: 1.75rem;
+    padding: 30px;
+}
+
+.cv-content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
