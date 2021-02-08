@@ -10914,6 +10914,7 @@ form .row:first-child .floating-label-form-group {
 .cv-title {
     font-size: 1.75rem;
     padding: 30px;
+    font-weight: bold;
 }
 
 .cv-content {
