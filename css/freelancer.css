@@ -10907,6 +10907,10 @@ form .row:first-child .floating-label-form-group {
     margin: 10px;
 }
 
+.btn-cv-icon {
+  margin-right:12px;
+}
+
 .cv-delimiter {
     padding-top: 20px;
 }
