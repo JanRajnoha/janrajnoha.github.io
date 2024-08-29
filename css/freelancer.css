@@ -6940,7 +6940,8 @@ button.bg-primary:focus {
 
 .bg-secondary {
   background-color: rgba(0,0,0,0.8) !important;
-  backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);  
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
