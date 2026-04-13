@@ -1,7 +1,7 @@
 const SKILLS = [
   '.NET / C#', 'Windows App SDK', 'ASP.NET Core', 'Azure',
-  'Blazor', 'UWP / WPF', 'MS SQL Server', 'REST API',
-  'Python', 'DevOps / YAML', 'CI/CD',
+  'REST API', 'Blazor', 'UWP / WPF', 'MS SQL Server',
+  'DevOps / YAML', 'CI/CD', 'Python',
 ];
 
 export default function About() {
