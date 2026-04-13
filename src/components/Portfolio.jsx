@@ -36,7 +36,7 @@ function PortfolioCard({ project, onClick }) {
       onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && onClick()}
       aria-label={`${project.title} – view details`}
     >
-      <img src={project.image} alt={project.title} loading="lazy" />
+      <img src={project.thumbnail ?? project.image} alt={project.title} loading="lazy" />
       <div className="portfolio-overlay">
         <i className="fas fa-magnifying-glass-plus fa-2x mb-2" />
         <span className="portfolio-card-title">{project.title}</span>

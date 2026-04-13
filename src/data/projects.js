@@ -59,6 +59,7 @@ export const projects = [
     id: 5,
     title: 'Chatter',
     image: '/img/portfolio/Chatter.png',
+    thumbnail: '/img/portfolio/Chatter_Logo.png',
     tags: ['Chat App', 'WPF', 'Azure SQL'],
     description: [
       '<strong>School project.</strong> A team communication app with organisation / group support, admin and user roles, and a clean interface inspired by Microsoft Teams.',
