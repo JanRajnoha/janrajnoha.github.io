@@ -443,6 +443,12 @@ h1, h2, h3, h4, h5, h6 {
   padding:       1rem 1.25rem;
   z-index:       2000;
   box-shadow:    var(--shadow-hover);
+  opacity:       1;
+  transition:    opacity 0.35s ease, transform 0.35s ease;
+}
+.cookie-banner--closing {
+  opacity:   0;
+  transform: translateX(-50%) translateY(1.5rem);
 }
 .cookie-text {
   color:     var(--text-muted);
