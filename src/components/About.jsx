@@ -1,6 +1,6 @@
 const SKILLS = [
-  '.NET / C#', 'Blazor', 'ASP.NET Core', 'Windows App SDK',
-  'UWP / WPF', 'Azure', 'MS SQL Server', 'REST API',
+  '.NET / C#', 'Windows App SDK', 'ASP.NET Core', 'Azure',
+  'Blazor', 'UWP / WPF', 'MS SQL Server', 'REST API',
   'Python', 'DevOps / YAML', 'CI/CD',
 ];
 
