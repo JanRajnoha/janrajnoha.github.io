@@ -19,6 +19,7 @@ export default function About() {
               className="about-photo mb-4"
               src="/img/prof6.jpg"
               alt="Jan Rajnoha"
+              loading="lazy"
             />
             <div className="skills-wrap">
               {SKILLS.map((s) => (

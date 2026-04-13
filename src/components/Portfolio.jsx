@@ -69,6 +69,7 @@ function ProjectModal({ project, onHide }) {
               className="img-fluid rounded mb-4"
               src={project.image}
               alt={project.title}
+              loading="lazy"
             />
             {project.description.map((para, i) => (
               <p
