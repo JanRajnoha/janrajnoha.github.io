@@ -5,6 +5,7 @@ import About        from './components/About.jsx';
 import Contact      from './components/Contact.jsx';
 import Footer       from './components/Footer.jsx';
 import ScrollToTop  from './components/ScrollToTop.jsx';
+import CookieBanner from './components/CookieBanner.jsx';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Contact />
       <Footer />
       <ScrollToTop />
+      <CookieBanner />
     </>
   );
 }

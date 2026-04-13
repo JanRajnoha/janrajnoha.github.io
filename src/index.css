@@ -425,6 +425,48 @@ h1, h2, h3, h4, h5, h6 {
   font-size:  0.8rem;
 }
 
+/* ── COOKIE BANNER ──────────────────────── */
+.cookie-banner {
+  position:      fixed;
+  bottom:        1.5rem;
+  left:          50%;
+  transform:     translateX(-50%);
+  width:         min(560px, calc(100vw - 2rem));
+  display:       flex;
+  align-items:   center;
+  gap:           1.25rem;
+  background:    rgba(13, 27, 46, 0.92);
+  backdrop-filter: blur(10px);
+  border:        1px solid var(--border);
+  border-top:    2px solid var(--primary);
+  border-radius: var(--radius);
+  padding:       1rem 1.25rem;
+  z-index:       2000;
+  box-shadow:    var(--shadow-hover);
+}
+.cookie-text {
+  color:     var(--text-muted);
+  font-size: 0.82rem;
+  line-height: 1.5;
+  flex: 1;
+}
+.cookie-dismiss {
+  flex-shrink:   0;
+  background:    var(--primary);
+  color:         #fff;
+  border:        none;
+  border-radius: 0.35rem;
+  padding:       0.4rem 1.1rem;
+  font-size:     0.82rem;
+  font-weight:   600;
+  cursor:        pointer;
+  transition:    background-color var(--transition), transform var(--transition);
+}
+.cookie-dismiss:hover {
+  background: var(--primary-dark);
+  transform:  translateY(-1px);
+}
+
 /* ── SCROLL TO TOP ──────────────────────── */
 .scroll-top-btn {
   position:      fixed;
